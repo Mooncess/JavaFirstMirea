@@ -1,17 +1,17 @@
-package ru.mirea.task2.Solution_2;
+package ru.mirea.task2.Solution_2and3;
 
 public class Ball {
-    private String Type;
-    public Ball(String ) {
-        this.name = name;
+    private String type;
+    public Ball(String type) {
+        this.type = type;
     }
-    public String getShapeName() {
-        return name;
+    public String getType() {
+        return type;
     }
-    public void setShapeName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.type = type;
     }
     public String toString() {
-        return "Figure: " + getShapeName();
+        return "Ball: " + getType();
     }
 }
