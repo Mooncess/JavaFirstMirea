@@ -2,10 +2,36 @@ package ru.mirea.task1;
 
 public class Solution_3 {
     public static void main(String[] args) {
-        System.out.println("[Program 3]");
-        for (int i = 1; i < 11; i++) {
-            double a = 1.0 / i;
-            System.out.printf("%.2f%n", a);
+        System.out.println("[Program 1]");
+
+        int[] myArray = {5, 45, 98, 8, 0, 1};
+
+        int s = 0;
+
+        System.out.print("[FOR] Sum of elements = ");
+        for (int k : myArray) {
+            s += k;
         }
+        System.out.println(s);
+
+        s = 0;
+
+        System.out.print("[WHILE] Sum of elements = ");
+        int j = 0;
+        while (j < myArray.length) {
+            s += myArray[j];
+            j++;
+        }
+        System.out.println(s);
+
+        s = 0;
+
+        System.out.print("[DO WHILE] Sum of elements = ");
+        j = 0;
+        do {
+            s += myArray[j];
+            j++;
+        } while (j < myArray.length);
+        System.out.println(s);
     }
 }
