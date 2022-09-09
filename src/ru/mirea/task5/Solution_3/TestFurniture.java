@@ -10,8 +10,9 @@ public class TestFurniture {
 
         System.out.println();
 
-        System.out.println(rottweiler);
-        System.out.println(greyhound);
-        System.out.println(mastiff);
+        System.out.println(sofa);
+        System.out.println(table);
+        System.out.println(shop_1);
+        System.out.println(shop_2);
     }
 }
