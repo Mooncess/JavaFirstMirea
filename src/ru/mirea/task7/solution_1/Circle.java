@@ -1,4 +1,4 @@
-package ru.mirea.task7.solution;
+package ru.mirea.task7.solution_1;
 
 public class Circle extends Shape {
     protected double radius;
@@ -29,6 +29,6 @@ public class Circle extends Shape {
     }
     @Override
     public String toString() {
-        return ("Circle [ Radius = " + radius + "; Color: " + color + "; Filled: " + filled);
+        return ("Circle [ Radius = " + radius + "; Color: " + color + "; Filled: " + filled + " ]");
     }
 }

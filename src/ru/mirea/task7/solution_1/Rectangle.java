@@ -1,4 +1,4 @@
-package ru.mirea.task7.solution;
+package ru.mirea.task7.solution_1;
 
 public class Rectangle extends Shape{
     protected double width;
@@ -43,6 +43,6 @@ public class Rectangle extends Shape{
     }
     @Override
     public String toString() {
-        return ("Rectangle [ Width = " + width + "; Length = " + length + "; Color: " + color + "Filled: " + filled);
+        return ("Rectangle [ Width = " + width + "; Length = " + length + "; Color: " + color + "Filled: " + filled + " ]");
     }
 }
