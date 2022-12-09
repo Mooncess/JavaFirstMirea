@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_3;
+package ru.mirea.task5.Solution_3;
 
 public class TestFurniture {
     public static void main(String[] args) {

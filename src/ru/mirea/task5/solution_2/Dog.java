@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_2;
+package ru.mirea.task5.Solution_2;
 
 public abstract class Dog {
     protected String name;

@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_3;
+package ru.mirea.task5.Solution_3;
 
 public class Sofa extends Furniture{
     public Sofa(FurnitureShop shop, int price, String color) {

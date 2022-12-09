@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_1;
+package ru.mirea.task5.Solution_1;
 
 public class Teapot extends Dish {
     public Teapot(String material, String color) {

@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_3;
+package ru.mirea.task5.Solution_3;
 
 public class Table extends Furniture{
     public Table(FurnitureShop shop, int price, String color) {

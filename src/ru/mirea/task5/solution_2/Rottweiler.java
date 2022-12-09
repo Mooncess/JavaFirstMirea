@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_2;
+package ru.mirea.task5.Solution_2;
 
 public class Rottweiler extends Dog{
     public Rottweiler(String name, int age) {

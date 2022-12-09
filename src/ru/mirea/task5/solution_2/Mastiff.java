@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_2;
+package ru.mirea.task5.Solution_2;
 
 public class Mastiff extends Dog {
     public Mastiff(String name, int age) {

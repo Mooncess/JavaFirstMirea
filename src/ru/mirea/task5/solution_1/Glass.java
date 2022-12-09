@@ -1,4 +1,4 @@
-package ru.mirea.task5.solution_1;
+package ru.mirea.task5.Solution_1;
 
 public class Glass extends Dish {
     public Glass(String material, String color) {
